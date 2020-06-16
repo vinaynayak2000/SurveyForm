@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+
+
+    <h1 id="title">Chocolate Survey Form</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the quality</p>
+
+    <form id="survey-form">
+    <label id="name-label">Name</label><br>
+    <input type="text" id="name" placeholder="Enter your name" required><br><br>
+    <label id="email-label">Email</label><br>
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+    <label id="number-label">Age</label><br>
+    <input type="number" id="number"  min="15" max="100"placeholder="Age"  ><br><br>
+    
+    <label for="dropdown" id="dropdownl">How was the quality of chocolate? </label><br>
+
+    <select name="dropdown" id="dropdown">
+        <option selected disabled>Select Quality</option>
+        <option value="excellent">Excellent</option>
+        <option value="vGood">Very Good</option>
+        <option value="good">Good</option>
+        <option value="ok">OK</option>
+        <option value="bad">Bad</option>
+    </select><br><br>
+    
+    <label for="radioB" id="radioB">Would you recommend our Chocolates to a friend?</label><br>
+    <input type="radio" id="definitely" name="radioB" value="definitely" checked="checked">
+    <label for="definitely" id="d">Definitely</label><br>
+    <input type="radio" id="maybe" name="radioB" value="maybe">
+    <label for="maybe" id="m">Maybe</label><br>
+    <input type="radio" id="notsure" name="radioB" value="notsure">
+    <label for="notsure" id="n">Not Sure</label><br><br>
+    
+    <label for="dropdown1" id="dropdown1">What is your favorite feature of our chocolates?</label><br>
+
+    <select name="dropdown1" id="dropdown1o">
+        <option selected disabled>Select an Option</option>
+        <option value="taste">Taste</option>
+        <option value="texture">Texture</option>
+        <option value="color">Color</option>
+        <option value="variety">Variety</option>
+        <option value="services">Services</option>
+    </select><br><br>
+    
+    
+    <label for="checkbox" id="checkbox">What would you like to see improved? (Check all that apply)</label><br>
+    <input type="checkbox" id="taste" name="taste" value="taste">
+    <label for="taste" id="t"> Taste</label><br>
+    <input type="checkbox" id="texture" name="texture" value="texture">
+    <label for="texture" id="t"> Texture</label><br>
+    <input type="checkbox" id="color" name="color" value="color">
+    <label for="color" id="t"> Color</label><br>
+    <input type="checkbox" id="variety" name="variety" value="variety">
+    <label for="variety" id="t"> Variety</label><br>
+    <input type="checkbox" id="services" name="services" value="services">
+    <label for="services" id="t"> Services</label><br>
+    <input type="checkbox" id="richness" name="richness" value="richness">
+    <label for="richness" id="t"> Richness</label><br><br>
+    
+    
+    <label for="textbox1" id="textbox1">Any comments or suggestions?</label><br>
+    
+    <textarea id="textboxo" name="textbox1" rows="4" cols="50" placeholder="Enter your comment here.." >
+    </textarea><br><br>
+
+    <button type="submit" id="submit" >Submit</button>
+    
+    
+    
+    
+    
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>
